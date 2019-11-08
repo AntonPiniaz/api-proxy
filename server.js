@@ -11,7 +11,7 @@ app.all('*', (req, res, next) => {
 
     if (req.method === 'OPTIONS') {
         // CORS Preflight
-        res.status().send();
+        res.status(200).send();
     } else {
         const targetURL = req.get('Target-URL');
         const authClient = req.get('X-Auth-Client');
