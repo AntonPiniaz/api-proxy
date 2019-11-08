@@ -1,0 +1,23 @@
+{
+    "name": "api-proxy",
+    "version": "1.0.0",
+    "description": "Proxy for api calls in bigcommerce",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AntonPiniaz/api-proxy.git"
+    },
+    "author": "Anton Piniaz",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/AntonPiniaz/api-proxy/issues"
+    },
+    "homepage": "https://github.com/AntonPiniaz/api-proxy#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "request": "^2.88.0"
+    }
+}
