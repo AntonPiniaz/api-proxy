@@ -7,7 +7,7 @@ app.all('*', (req, res, next) => {
     // Set CORS headers: allow all origins, methods, and headers
     res.set('Access-Control-Allow-Origin', '*');
     res.set('Access-Control-Allow-Methods', 'GET, POST, PATCH, PUT, DELETE, OPTIONS');
-    res.set('Access-Control-Allow-Headers', 'Origin, Accept, Content-Type, X-Auth-Token, X-Auth-Client');
+    res.set('Access-Control-Allow-Headers', 'Origin, Accept, Content-Type, X-Auth-Token, X-Auth-Client, Target-URL');
 
     if (req.method === 'OPTIONS') {
         // CORS Preflight
